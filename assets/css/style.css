@@ -81,6 +81,23 @@
   
   /* HEADER / NAVBAR STYLES END */
   
+  section nav ul li a {
+      background-color: red;
+      flex-direction: row;
+      justify-content: center;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+    
+  }
+  section nav ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: right;
+    list-style: none;
+    
+  }
+
   /* FOOTER STYLES START */
   footer {
     background: var(--second-color);
@@ -99,7 +116,7 @@
   
   footer div {
     line-height: 1.5;
-    text-align: right;
+    text-align: center;
   }
   
   footer a {
@@ -133,7 +150,7 @@
   }
   
   header.section-title {
-    border-right: 5px solid red;
+    border-right: 5px solid navy;
     background: none;
   }
   
