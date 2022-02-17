@@ -89,14 +89,7 @@
       font-family: 'Times New Roman', Times, serif;
     
   }
-  section nav ul {
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: right;
-    list-style: none;
-    
-  }
+  
 
   /* FOOTER STYLES START */
   footer {
